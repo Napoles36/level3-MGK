@@ -115,8 +115,8 @@ let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
 // se o usuário clicar em uma opção
 function optionSelected(answer) {
-    clearInterval(counter); // limpar contador
-    clearInterval(counterLine); // limpar counterLine
+    //  adicione o limpar contador
+    // adicione limpar counterLine
     let userAns = answer.textContent; // obter opção selecionada pelo usuário
     let correcAns = questions[que_count].answer; // obter resposta correta do array
     const allOptions = option_list.children.length; // obter todos os itens de opção
